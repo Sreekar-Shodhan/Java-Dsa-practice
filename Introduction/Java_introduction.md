@@ -7,11 +7,11 @@
 - This is famous for "write once - run anywhere". Once the developer writes java code then that code can be executed on any platform.
 
 
-### Java Terminology:
+## Java Terminology:
 
 Every language/technology has few terminology. The following are the common terms of Java.
 
-##### 1. Java Virtual Machine(JVM):
+### 1. Java Virtual Machine(JVM):
 
 - There are three execution phases of a program. They are write, compile and run the program.
 
@@ -23,19 +23,19 @@ Every language/technology has few terminology. The following are the common term
 
 Function of JVM is to execute the bytecode produced by the compiler. Every OS has their own JVM but the work of JVM is same. This is the reason why Java is platform independent.
 
-##### 2. Bytecode:
+### 2. Bytecode:
 
 - The computer/machine cannot understand the human language. So whatever the code developers write, it gets converted to bytecode and that code is executed by JVM.
 
 - That bytecode is saved as .class file by the compiler. 
 
-##### 3. Java Development Kit(JDK):
+### 3. Java Development Kit(JDK):
 
 - It is a complete development kit that includes compiler, java runtime environment(JRE) , debuggers, java docs etc.
 
 - For the program to execute in java, we need to install JDK on our computer in order to create, compiler and run the java program.
 
-##### 4. Java Runtime Environment(JRE):
+### 4. Java Runtime Environment(JRE):
 
 - JDK includes JRE. JRE installation in our computers allows the java program to run, however, we cannot compile it.
 
@@ -46,7 +46,7 @@ Function of JVM is to execute the bytecode produced by the compiler. Every OS ha
  JDK—> JRE + Compilers + Debuggers....
  JDK contains jre + compilers and jre contains jvm+class libraries
 
-##### 5. Garbage Collector:
+### 5. Garbage Collector:
 
 - In java, developers cannot delete the objects. TO delete that memory JVM has a program called Garbage Collector.
 
@@ -54,34 +54,34 @@ Function of JVM is to execute the bytecode produced by the compiler. Every OS ha
 
 - Garbage collectors cannot recover the memory of objects being referenced
 
-##### 6. ClassPath:
+### 6. ClassPath:
 
 - The classpath is the file path where the java runtime and Java compiler look for .class files to load. 
 - By default, JDK provides many libraries. If one wants to include any external libraries they should be added to the classpath.
 
-### Features of Java:
+## Features of Java:
 
-##### 1. Platform Independent:
+### 1. Platform Independent:
 
 Every OS has their own JVM installed, but the output produced by all the OS is the same after the executionn of Bytecode.
 
-##### 2. Object-Oriented Programming Language:
+### 2. Object-Oriented Programming Language:
 
 - Organizing the programin the terms of collection of objects is a way of object-oriented programming.
 
 - It supports abstraction, encapsulation, inheritance, polymorphism.
 
-##### 3. Simple:
+### 3. Simple:
 
 - It is a simple language as it does not have complex features like pointers, operator overloading, multiple inheritances and Explicit memory allocation.
 
-##### 4. Robust:
+### 4. Robust:
 
 - It is reliable. It is developed in such a way that it puts a lot of effort into checking errors as early as possible, that is why the java compiler is able to detect very tiny errors.
 
 - Garbage collection, Exception Handling, memory allocation makes java reliable.
 
-##### 5. Distributed:
+### 5. Distributed:
 
 - We can create distributed applications using java.
 
@@ -89,7 +89,7 @@ Every OS has their own JVM installed, but the output produced by all the OS is t
 
 - Java programs are easily distributed on one or more systems that are connected to each other through an internet connection.
 
-##### 6. Secure:
+### 6. Secure:
 
 - In java we dont have pointers, we cannot access out-of-bound arrays i.e ArrayIndexOutOfBound Exception.
 
@@ -97,30 +97,30 @@ Every OS has their own JVM installed, but the output produced by all the OS is t
 
 - Also java programs run in an environment that is independent of the OS environment which makes java programs more secure.
 
-##### 7. Multithreading:
+### 7. Multithreading:
 
 - Allows concurrent execution of two or more parts of program for maximum utilization of CPU.
 
-##### 8. portable:
+### 8. portable:
 
 - Platform Independency feature of java allows us to take the bytecode from one system and run the same bytecode in other system.
 
-##### 9. High Performance:
+### 9. High Performance:
 
 - Java architecture is defined in such a way that it reduces overhead during the runtime and at some time java uses Just In Time (JIT) compiler where the compiler compiles code on-demand basics where it only compiles those methods that are called making applications to execute faster.
 
-##### 10. Dynamic flexibility:
+### 10. Dynamic flexibility:
 
 - Due to OOPS feature it is easy to add classes, new methods to existing classes and create new sub-classes.
 
 - Even supports functions written in other languages such as C,C++, referred as native methods.
 
-##### 11. Sandbox Execution:
+### 11. Sandbox Execution:
 
 - Java programs run in a separate space that allows user to execute their applications without affecting the underlying system with help of a bytecode verifier. 
 - Bytecode verifier also provides additional security as its role is to check the code for any violation of access.
 
-##### 12. Power of compilation and interpretation:
+### 12. Power of compilation and interpretation:
 
 - Java integrates arising enormous power as Java compiler compiles the source code to bytecode and JVM  executes this bytecode to machine OS-dependent executable code.
 
